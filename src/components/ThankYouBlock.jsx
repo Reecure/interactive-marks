@@ -6,7 +6,7 @@ function ThankYouBlock({ mark }) {
     <div>
       <div className={styles.thankYouBlock}>
         <div>
-          <img src={thankYou} />
+          <img src={thankYou} alt="thank-you-ico" />
         </div>
         <div>
           <p className={styles.markSelected}>You selected {mark} of 5</p>
