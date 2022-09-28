@@ -1,0 +1,48 @@
+.mainBlock {
+  border: none;
+  border-radius: 20px;
+  max-width: 430px;
+  padding: 30px;
+  background-color: hsl(214, 22%, 15%);
+  color: white;
+}
+
+.starIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.mainBlock h2,
+.mainBlock p {
+  margin-bottom: 15px;
+}
+
+.MarkButtons {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  letter-spacing: 3px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  transition: 0.5s;
+}
+
+.submitBtn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  transition: 0.5s;
+}

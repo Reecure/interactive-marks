@@ -1,0 +1,33 @@
+.thankYouBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  max-width: 430px;
+  padding: 30px;
+  background-color: hsl(214, 22%, 15%);
+  color: white;
+}
+
+.thankYouBlock img {
+  margin: 20px;
+}
+
+.markSelected {
+  margin-top: 20px;
+  padding: 6px 10px;
+  border-radius: 25px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+}
+
+.thankYouBlock h2,
+.thankYouBlock p {
+  margin: 10px;
+  text-align: center;
+}
+
+.text {
+  color: hsl(216, 12%, 54%);
+}
